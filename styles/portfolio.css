@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+header nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.text-orange{
+    color: #FD6E0A;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+.menu li{
+    font-size: 20px;
+    color: #474747;
+}
