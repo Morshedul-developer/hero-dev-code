@@ -45,6 +45,9 @@
     margin-bottom: 30px;
 }
 
+.text-center{
+    text-align: center;
+}
 
 /* main style */
 header{
@@ -197,7 +200,7 @@ nav .logo h2{
 #resume .resume-container{
     display: flex;
     gap: 24px;
-    margin-top: 113px;
+    margin: 113px 0 50px 0;
 }
 
 .resume-container hr{
@@ -233,4 +236,53 @@ nav .logo h2{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+footer{
+    margin-top: 131px;
+    background-color: #FFF8F3;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    gap: 117px;
+}
+
+footer .footer-container .social{
+    max-width: 562px;
+}
+
+footer .footer-container .social p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+footer .footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+footer .footer-container .icons img{
+    max-width: 24px;
+    margin-right: 24px;
+}
+
+footer .footer-container form input[type="text"],footer .footer-container form input[type="email"],footer .footer-container form textarea{
+    width: 461px;
+    padding: 18px 30px;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
